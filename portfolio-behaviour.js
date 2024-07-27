@@ -3,18 +3,18 @@ const btnCV = document.getElementById("btnCV");
 const btnProjects = document.getElementById("btnProjects");
 const bodyText = document.getElementById("bodyText");
 
-var aboutText = "this is about me";
-var cvText = "this is my cv";
-var projectText = "this is my projects";
+var aboutText = "ABOUT<br>HOBBIES/INTERESTS<br>CONTACT INFO";
+var cvText = "EDUCATION<br>WORK EXPERIENCE<br>SKILLS";
+var projectText = "PROJECTS<br>Project1<br>Project2";
 
 btnAbout.addEventListener('click', function(){
-    bodyText.textContent = "aboutText";
+    bodyText.innerHTML = aboutText;
 });
 
 btnCV.addEventListener("click", function(){
-    
+    bodyText.innerHTML = cvText;
 });
 
 btnProjects.addEventListener("click", function(){
-    
+    bodyText.innerHTML = projectText;
 });

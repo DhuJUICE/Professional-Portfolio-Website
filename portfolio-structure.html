@@ -7,37 +7,42 @@
     <link rel="stylesheet" href="portfolio-style.css">
 </head>
 <body>
-    <header>
-        <table align="center" border="0">
+    <div class="Wrapper">
+        <header>
+            <table align="center" border="0">
+                <tr>
+                    <td width="60%" align="right">JUNIËR'S PORTFOLIO</td>
+                    <td width="40%" align="left"><img width="20%" src="static/profilePic.jpg"></td>
+                </tr>
+            </table>        
+        </header>
+
+        <table border="1" align="center" width="100%">
             <tr>
-                <td width="60%" align="right">JUNIËR'S PORTFOLIO</td>
-                <td width="40%" align="left"><img width="20%" src="static/profilePic.jpg"></td>
+                <td align="center">
+                    <Button id="btnAbout">About Me</Button>
+                    <Button id="btnCV">CV</Button>
+                    <Button id="btnProjects">Projects</Button>
+                </td>
             </tr>
-        </table>        
-    </header>
+        </table>
+        <div class="MainContent">
+            <table border="1" align="center" width="100%">
+                <tr>
+                    <td align="center">
+                        <Label id="bodyText">
+                            This is the body text
+                        </Label>
+                    </td>
+                </tr>
+            </table>
 
+        </div>
+        <footer>
+            <center>Copyright &copy; Created by Jugamsoft Technologies</center>
+        </footer>
+    </div>
     
-
-    <table border="1" align="center" width="100%">
-        <tr>
-            <td align="center">
-                <Button id="btnAbout">About Me</Button>
-                <Button id="btnCV">CV</Button>
-                <Button id="btnProjects">Projects</Button>
-            </td>
-        </tr>
-        <tr>
-            <td align="center">
-                
-                <Label id="bodyText">This is the body text</Label>
-            </td>
-        </tr>
-    </table>
-
-    <footer>
-        <center>Copyright &copy; Created by Jugamsoft Technologies</center>
-    </footer>
-
     <script src="portfolio-behaviour.js"></script>
 </body>
 </html>

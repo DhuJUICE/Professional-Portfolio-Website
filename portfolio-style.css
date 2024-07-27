@@ -1,9 +1,39 @@
+/* Clear all formatting from controls beforehand (*means everything) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Ensure html and body takes up full screen size */
+html, body {
+    height: 100%;
+}
+
+/* Handle the wrapper styling around all the body content*/
+.Wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/*Area to stretch*/
+.Wrapper > .MainContent{
+    flex: 1; /*Fill remaining vertical space */
+    display: flex;
+    flex-direction: column;
+}
+
 header{
     font-size: xx-large;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-body {
-    background-color:lightblue;
+img{
+    border-radius: 30%;
+}
+
+footer{
+    padding: 20px 0;
 }
 
