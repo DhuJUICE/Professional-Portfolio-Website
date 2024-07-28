@@ -13,6 +13,18 @@ html, body{
 header{
     background-color: rgba(255, 239, 228, 0.881);
     font-size: large;
+    animation: fadeIn 1s ease-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 body{
@@ -25,14 +37,67 @@ footer{
     padding: 10px 0;
     margin-top: auto;
     bottom: 0;
+    opacity: 0; /* Initially hidden */
+    animation: fadeInFooter 1s ease-out forwards;
 }
+
+@keyframes fadeInFooter {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 
 img{
     width: 100%;
 }
 
-button{
+button {
     vertical-align: middle;
     width: 200px;
     height: 50px;
+    background-color: rgb(205, 205, 205);
+    color: rgb(0, 0, 0);
+    border: 0;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+    opacity: 0; /* Initially hidden */
+    animation: fadeInButton 2s ease-out forwards;
+    transition: opacity 0.4s ease; /* Smooth transition for opacity */
+}
+
+@keyframes fadeInButton {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Animation for welcome message */
+#bodyText h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2.5rem; /* Adjust font size for impact */
+    animation: scaleText 2.0s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards,
+               fadeInText 1.5s ease-out forwards;
+}
+
+@keyframes scaleText {
+    0% {
+        transform: scale(0.8);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
