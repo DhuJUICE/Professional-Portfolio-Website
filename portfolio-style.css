@@ -10,20 +10,6 @@ html, body {
     height: 100%;
 }
 
-/* Handle the wrapper styling around all the body content*/
-.Wrapper{
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-/*Area to stretch*/
-.Wrapper > .MainContent{
-    flex: 1; /*Fill remaining vertical space */
-    display: flex;
-    flex-direction: column;
-}
-
 header{
     font-size: xx-large;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
