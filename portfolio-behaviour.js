@@ -39,7 +39,28 @@ const aboutText = `
 `;
 
 const detailsText = `
-    Professional Details
+    <table border="1" width="100%" height="100%">
+        <tr>
+            <td>
+                <h2>Work experience 1</h2>
+            </td>
+            <td>
+                <h2>Work experience 2</h2>
+            </td>
+            <td width="20%">
+                <h2>Skills</h2>
+                <p>
+                    Python | C# | Java<br>
+                    HTML | CSS | JavaScript<br>
+                    SQL | Git | Github<br>
+                    Django Framework
+                </p>
+            </td>
+            <td>
+                <h2>Education</h2>
+            </td>
+        </tr>
+    </table>
 `;
 
 const projectText = `
