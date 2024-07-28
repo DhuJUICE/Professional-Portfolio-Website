@@ -56,8 +56,13 @@ const detailsText = `
                     Django Framework
                 </p>
             </td>
-            <td>
+            <td width="20%">
                 <h2>Education</h2>
+                <p>
+                    2022 - 2024<br>
+                    North West University<br>
+                    -Bachelor of science in Information Technology
+                </p>
             </td>
         </tr>
     </table>
@@ -68,7 +73,7 @@ const projectText = `
         <tr>
             <td align="center" width="50%">
                 <h2>Project 1</h2>
-                <h2>Ecommerce Web Application Backend</h2>
+                <h2><a href="https://github.com/DhuJUICE/Ecommerce-Backend">Ecommerce Web Application Backend</a></h2>
                 <p>
                     With this project i was asked to help with the development of the backend for a ecommerce web application using the Django
                     Web Development Framework and Python. I had to work with PostgreSQL and develop the different models for the data requirements
