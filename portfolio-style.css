@@ -6,7 +6,7 @@
 }
 
 /*Ensure html and body takes up full screen size */
-html, body {
+html, body{
     height: 100%;
 }
 
@@ -15,11 +15,18 @@ header{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+}
+
 img{
     border-radius: 30%;
 }
 
 footer{
     padding: 20px 0;
+    margin-top: auto;
+    bottom: 0;
 }
 

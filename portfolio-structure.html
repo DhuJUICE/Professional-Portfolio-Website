@@ -8,32 +8,37 @@
 </head>
 <body>
         <header>
-            <table align="center" border="0">
+            <table align="center" border="1">
                 <tr>
-                    <td width="60%" align="right">JUNIËR'S PORTFOLIO</td>
-                    <td width="40%" align="left"><img width="20%" src="static/profilePic.jpg"></td>
+                    <td width="60%" align="right" colspan="2">JUNIËR'S PORTFOLIO</td>
+                    <td width="40%" align="left">
+                        <img width="20%" src="static/profilePic.jpg">
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <Button id="btnAbout">About Me</Button>
+                    </td>
+                    <td align="center">
+                        <Button id="btnCV">CV</Button>
+                    </td>
+                    <td align="left">
+                        <Button id="btnProjects">Projects</Button>
+                    </td>
                 </tr>
             </table>        
         </header>
 
-        <table border="1" align="center" width="100%">
+        <table border="1" align="center" width="100%" height="100%">
+            
             <tr>
                 <td align="center">
-                    <Button id="btnAbout">About Me</Button>
-                    <Button id="btnCV">CV</Button>
-                    <Button id="btnProjects">Projects</Button>
+                    <Label id="bodyText">
+                        This is the body text
+                    </Label>
                 </td>
             </tr>
         </table>
-            <table border="1" align="center" width="100%">
-                <tr>
-                    <td align="center">
-                        <Label id="bodyText">
-                            This is the body text
-                        </Label>
-                    </td>
-                </tr>
-            </table>
 
         <footer>
             <center>Copyright &copy; Created by Jugamsoft Technologies</center>
