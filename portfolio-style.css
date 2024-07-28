@@ -11,7 +11,7 @@ html, body{
 }
 
 header{
-    background-color: rgba(255, 239, 228, 0.881);
+    background-color: rgba(175, 158, 255, 0.76);
     font-size: large;
     animation: fadeIn 1s ease-out;
 }
@@ -59,7 +59,7 @@ button {
     vertical-align: middle;
     width: 200px;
     height: 50px;
-    background-color: rgb(205, 205, 205);
+    background-color: rgb(237, 237, 237);
     color: rgb(0, 0, 0);
     border: 0;
     cursor: pointer;
