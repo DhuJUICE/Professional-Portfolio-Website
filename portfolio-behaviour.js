@@ -102,11 +102,11 @@ const projectText = `
             </td>
             <td align="center" width="50%">
                 <h2>Project 2</h2>
-                <h2>Email Retrieving Automation</h2>
+                <h2><a href="https://github.com/DhuJUICE/Encryption-Project">SecureCrypt Encryption</a></h2>
                 <p>
-                    This was a project i wanted to do for myself as i do not like to open my
-                    emails everytime i start up my computer, so i developed a program that will run at startup of my pc and show me all my new inbox emails
-                    without having to log in everytime. I made use of the simplegmail Gmail API. It asks you to log into your gmail account once and them stores a gmail_token to be used everytime you run the program without logging into gmail on pc startup again.
+                    This was a fun project to be apart of and is actually quite useful for encrypting my personal files that 
+                    i do not want others to access without unauthorized access. Using python to build this project was challenging at first but as me and my team got deeper into understanding the concepts behind
+                    the encryption algorithms we were able to complete this encryption program.
                 </p>
             </td>
         </tr>
