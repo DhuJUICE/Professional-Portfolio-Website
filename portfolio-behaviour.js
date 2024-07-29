@@ -106,7 +106,7 @@ const projectText = `
                 <p>
                     This was a fun project to be apart of and is actually quite useful for encrypting my personal files that 
                     i do not want others to access without unauthorized access. Using python to build this project was challenging at first but as me and my team got deeper into understanding the concepts behind
-                    the encryption algorithms we were able to complete this encryption program.
+                    the encryption algorithms we were able to complete this encryption program and put it to use in real life.
                 </p>
             </td>
         </tr>
