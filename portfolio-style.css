@@ -112,7 +112,7 @@ button:hover {
 #bodyText p {
     text-align: left;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 1.0rem; /* Adjust font size for impact */
+    font-size: 0.9rem; /* Adjust font size for impact */
     animation: scaleText 2.0s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards,
                fadeInText 1.5s ease-out forwards;
 }

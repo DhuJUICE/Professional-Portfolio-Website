@@ -39,13 +39,32 @@ const aboutText = `
 `;
 
 const detailsText = `
-    <table border="1" width="100%" height="100%">
+    <table border="0" width="100%" height="100%">
         <tr>
-            <td>
-                <h2>Work experience 1</h2>
+            <td width="30%">
+                <h2>Work experience</h2>
+                <p>
+                    <b>Supplemental Instruction Leader - C# 2023</b><br>
+                    North West University<br>
+                    Had the opportunity to help over 350 students grasp and understand the C#
+                    programming language along with User Interface programming.
+                    <br><br>
+                    <b>Skills Gained:</b><br>
+                    Time Management | Attention to Detail | Interpersonal Communication | C# |
+                    Technical Education & Communication | Management
+                </p>
             </td>
             <td>
-                <h2>Work experience 2</h2>
+                <h2>Work experience</h2>
+                <p>
+                    <b>Student Assistant - Python 2024</b><br>
+                    North West University<br>
+                    Had the opportunity to help over 300 students grasp and understand the
+                    Python programming language along with SQL databases.<br><br>
+                    <b>Skills Gained:</b><br>
+                    Time Management | Attention to Detail | Interpersonal Communication | Python |
+                    SQLite | Administration
+                </p>
             </td>
             <td width="20%">
                 <h2>Skills</h2>
